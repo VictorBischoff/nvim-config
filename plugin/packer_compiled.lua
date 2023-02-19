@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/victor/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["indentpython.vim"] = {
+    loaded = true,
+    path = "/Users/victor/.local/share/nvim/site/pack/packer/start/indentpython.vim",
+    url = "https://github.com/vim-scripts/indentpython.vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/victor/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -189,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/victor/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/victor/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
   }
 }
 

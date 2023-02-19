@@ -16,6 +16,9 @@ return require('packer').startup(function(use)
       vim.cmd('colorscheme rose-pine')
     end
   })
+  
+
+  use ('vim-scripts/indentpython.vim')
 
   use {
     'nvim-tree/nvim-tree.lua',
@@ -24,6 +27,8 @@ return require('packer').startup(function(use)
     },
   }
 
+  use('fatih/vim-go')
+  -- use('dense-analysis/ale')
   use('vim-airline/vim-airline')
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('theprimeagen/harpoon')
@@ -49,5 +54,5 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},
       {'rafamadriz/friendly-snippets'},
     }
-d  }
+  }
 end)
